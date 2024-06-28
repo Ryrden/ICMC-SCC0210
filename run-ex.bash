@@ -113,9 +113,6 @@ fi
 # Clean up extracted test cases
 echo -e "${BLUE}Cleaning up extracted test cases...${NC}"
 rm $testcaseDir/$prefix-*.in $testcaseDir/$prefix-*.out $testcaseDir/README.txt
-if [ $lang = "cpp" ]; then
-    rm $testcaseDir/main
-fi
 
 if $all_passed; then
     echo -e "${GREEN}All done. All tests passed.${NC}"
