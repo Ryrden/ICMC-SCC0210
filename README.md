@@ -6,6 +6,8 @@ Este repositório contém os códigos e casos de teste para a disciplina **SCC02
 
 O repositório está organizado em diretórios, cada um representando um módulo ou tópico abordado na disciplina. Dentro de cada diretório, você encontrará os casos de teste específicos para os algoritmos desenvolvidos.
 
+O problema e caso de teste relacionado a ele possuem o mesmo nome.
+
 ```plaintext
 ├───.vscode
 ├───01-ad-hoc
@@ -36,18 +38,20 @@ O repositório está organizado em diretórios, cada um representando um módulo
 
 ## Descrição dos Diretórios
 
-- 01-ad-hoc: Algoritmos ad-hoc.
-- 02-stl: Uso de Standard Template Library (STL) em C++.
-- 03-guloso: Algoritmos gulosos.
-- 04-backtracking: Algoritmos de backtracking.
-- 05-backtrackingHeuristica: Backtracking com heurísticas.
-- 06-divisao-e-conquista: Algoritmos de divisão e conquista.
-- 07-programacao-dinamica: Algoritmos de programação dinâmica.
-- 08-bitmask: Algoritmos que utilizam bitmask.
-- 09-teoria-dos-numeros: Algoritmos relacionados à teoria dos números.
-- 10-grafos: Algoritmos de grafos.
-- 11-teoria-dos-jogos: Algoritmos de teoria dos jogos.
-- 12-strings: Algoritmos de manipulação de strings.
+- 01-ad-hoc: Problemas com uso de conhecimentos elementares de programação
+- 02-stl: Uso da Standard Template Library (STL) em C++. Estruturas de dados básicas (Set, Map, Priority Queue, etc)
+- 03-guloso: Problemas gulosos (máximizar e míminizar sem controle de estado)
+- 04-backtracking: Problemas de tentativa e erro, testar caminhos a uma solução (Força bruta)
+  - O problema chess foi resolvido sem uso da técnica.
+- 05-backtrackingHeuristica: Backtracking com heurísticas (Facilitador para encontrar a solução)
+- 06-divisao-e-conquista: Problemas onde subproblemas definem o problema geral.
+  - o problemas karatsuba está lento demais (Python)
+- 07-programacao-dinamica: Problemas (onde a criança chora e o pai não vê) de otimização combinatória.
+- 08-bitmask: Problemas que usam manipulação de bits.
+- 09-teoria-dos-numeros: É matematiquinha, n tem jeito.
+- 10-grafos: Problemas de modelagem em grafo, grafo é grafo (faz um curso inteiro disso).
+- 11-teoria-dos-jogos: Problemas com uso de técnicas da Teoria dos Jogos (Grundy).
+- 12-strings: Problemas de manipulação em string
 
 ## Casos de Teste
 
